@@ -166,10 +166,10 @@
 
         layer_6 {
             bindings = <
-&trans  &kp LC(J)  &kp LA(LC(W))  &kp LC(LSHFT)  &kp LC(Y)  &kp LG(TAB)    &trans     &trans    &trans      &trans  &kp BSPC   &trans
-&trans  &kp A      &kp LC(S)      &kp LG(D)      &kp LC(F)  &kp LG(L)      &trans     &kp J     &trans      &trans  &kp ENTER  &trans
-&trans  &kp LC(Z)  &kp LC(X)      &kp LC(C)      &kp LC(V)  &kp LC(B)      &trans     &trans    &trans      &trans  &trans     &trans
-                                  &kp TAB        &trans     &kp LALT       &kp SPACE  &kp BSPC  &kp DELETE
+&trans  &kp LC(J)            &kp LA(LC(W))  &kp LC(LSHFT)  &kp LC(Y)  &kp LG(TAB)    &trans     &trans    &trans      &trans  &kp BSPC   &trans
+&trans  &mt LA(LC(A)) LC(A)  &kp LC(S)      &kp LG(D)      &kp LC(F)  &kp LG(L)      &trans     &kp J     &trans      &trans  &kp ENTER  &trans
+&trans  &kp LC(Z)            &kp LC(X)      &kp LC(C)      &kp LC(V)  &kp LC(B)      &trans     &trans    &trans      &trans  &trans     &trans
+                                            &none          &kp TAB    &kp LALT       &kp SPACE  &kp BSPC  &kp DELETE
             >;
         };
     };
